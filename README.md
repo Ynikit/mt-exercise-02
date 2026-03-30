@@ -31,6 +31,15 @@ Download and preprocess data:
 
     ./scripts/download_data.sh
 
+**Note about modified data:**  
+In this version of `download_data.sh`, instead of using the Grimm fairy tales dataset, I download three classic novels from Project Gutenberg:
+
+- *Wuthering Heights* by Emily Brontë  
+- *Jane Eyre* by Charlotte Brontë  
+- *Anne Grey* by Mary Shelley
+
+These three texts are combined into a single dataset, preprocessed, tokenized, and split into `train`, `valid`, and `test` sets. This replaces the original Grimm dataset in the workflow.
+
 Train a model:
 
     ./scripts/train.sh
