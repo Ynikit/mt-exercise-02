@@ -36,7 +36,7 @@ In this version of `download_data.sh`, instead of using the Grimm fairy tales da
 
 - *Wuthering Heights* by Emily Brontë  
 - *Jane Eyre* by Charlotte Brontë  
-- *Anne Grey* by Mary Shelley
+- *Agnes Grey* by Anne Brontë
 
 These three texts are combined into a single dataset, preprocessed, tokenized, and split into `train`, `valid`, and `test` sets. This replaces the original Grimm dataset in the workflow.
 

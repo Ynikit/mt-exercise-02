@@ -18,7 +18,7 @@ for corpus in train valid test; do
     ln -snf $absolute_path $data/wikitext-2/$corpus.txt
 done
 
-# download Wuthering Heights, Jane Eyre, Anne Grey and combine into one file
+# download Wuthering Heights, Jane Eyre, Agnes Grey and combine into one file
 
 mkdir -p $data/classics/raw
 
