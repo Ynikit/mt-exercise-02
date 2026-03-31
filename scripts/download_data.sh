@@ -24,11 +24,11 @@ mkdir -p $data/classics/raw
 
 wget -O $data/classics/raw/wuthering_heights.txt https://www.gutenberg.org/files/768/768-0.txt
 wget -O $data/classics/raw/jane_eyre.txt https://www.gutenberg.org/files/1260/1260-0.txt
-wget -O $data/classics/raw/anne_grey.txt https://www.gutenberg.org/files/1215/1215-0.txt
+wget -O $data/classics/raw/agnes_grey.txt https://www.gutenberg.org/files/767/767-0.txt
 
 cat $data/classics/raw/wuthering_heights.txt \
     $data/classics/raw/jane_eyre.txt \
-    $data/classics/raw/anne_grey.txt > $data/classics/raw/combined.txt
+    $data/classics/raw/agnes_grey.txt > $data/classics/raw/combined.txt
 
 # preprocess slightly
 
